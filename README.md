@@ -16,9 +16,8 @@ Lightweight docker-compose setup for running an Ollama backend plus Open WebUI, 
 
 1. Edit `models.txt` with the models you want (one per line). Example:
    ```
-   llama3
-   mistral
-   nomic-embed-text
+   gpt-oss:20b
+   llama3.1:8b
    ```
 2. Pull (or update) images:
    ```bash
